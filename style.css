@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    background-color: black;
+    color: white;
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .clock-container {
+    text-align: center;
+  }
+  
+  .week {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+  } 
+  
+  
+  .week span {
+    font-size: 1.5rem;
+    opacity: 0.5;
+  }
+  
+  .week span.active {
+    opacity: 1;
+    font-weight: bold;
+    color: #8c00ff;
+  }
+  
+  .clock {
+    text-align: center;
+  }
+  
+  .time {
+    font-size: 23rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
